@@ -6,7 +6,7 @@ def quadratic_function(x, a, b, c):
     return a * x**2 + b * x + c
 
 a = int(input("Enter value of a: "))
-b = int(input("Enter value of c: "))
+b = int(input("Enter value of b: "))
 c = int(input("Enter value of c: "))
 
 x_values = np.linspace(-10, 10, 40)
