@@ -1,0 +1,2 @@
+Create a graph for the sequence of factorial numbers. The graph should represent
+y=x! for x in the range from 1 to 10.
