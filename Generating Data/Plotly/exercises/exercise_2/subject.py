@@ -57,9 +57,9 @@ class Subject:
         assessments = ['Mini-teste1', 'Mini-teste2', 'Teste1', 'Mini-teste3', 'Teste2', 'Exam']
         data = [Bar(x=assessments, y=self.marks, marker_color=self.colors)]
 
-        x_axis_config = {'title' : 'Subjects', 'dtick' : 1}
+        x_axis_config = {'title' : 'Assessments', 'dtick' : 1}
         y_axis_config = {'title' : 'Marks'}
-        my_layout = Layout(title='Performande', xaxis=x_axis_config, yaxis=y_axis_config)
+        my_layout = Layout(title='Performance', xaxis=x_axis_config, yaxis=y_axis_config)
         offline.plot({'data' : data, 'layout' : my_layout}, filename='performance.html')
 
 
