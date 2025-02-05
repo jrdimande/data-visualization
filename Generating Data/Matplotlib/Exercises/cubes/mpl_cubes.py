@@ -14,10 +14,9 @@ ax.set_title("cubes Numbers", fontsize=24)
 ax.set_xlabel("Value", fontsize=14)
 ax.set_ylabel("Cube of Values", fontsize=14)
 
-# Set size of tick labels.
+# Set size of tick labels.rrrrrrrrrrrrr
 ax.tick_params(axis='both', labelsize=14)
 
 ax.grid()
-
 
 plt.show()
