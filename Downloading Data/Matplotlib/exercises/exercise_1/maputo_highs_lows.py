@@ -24,21 +24,19 @@ with open(filename) as f:
         dates.append(current_date)
 
 
-# Visualize
+# plot the low and high temperatures
 plt.style.use('classic')
 fig, ax = plt.subplots()
 ax.plot(dates, highs, c='red', alpha=0.5)
 ax.plot(dates, lows, c='blue', alpha=0.5)
 ax.fill_between(dates,highs, lows, facecolor='#ADD8E6', alpha=0.5)
 
-# Set titles
+# Format plot
 ax.set_title('Daily high and low temperatures in Maputo-2024', fontsize=24)
 ax.set_xlabel('Date', fontsize=16)
 ax.set_ylabel('Temperatures(C')
-
 ax.tick_params(axis='both', which='major', labelsize=16)
 ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
-
 fig.autofmt_xdate()
 plt.show()
 
