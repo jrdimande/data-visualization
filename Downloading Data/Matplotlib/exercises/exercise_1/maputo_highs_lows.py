@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 import matplotlib.dates as mdates
 
-filename = '../../data/67341099999.csv'
+filename = '../../data/maputo_temp.csv'
 
 with open(filename) as f:
     reader = csv.reader(f)

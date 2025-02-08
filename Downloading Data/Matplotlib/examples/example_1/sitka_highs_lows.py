@@ -2,7 +2,7 @@ import csv
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-filename = '../../data/data.csv'
+filename = '../../data/sitka.csv'
 with open(filename) as f:
     reader = csv.reader(f)
     header_row = next(reader)
