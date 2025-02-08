@@ -20,6 +20,7 @@ Nesta seção, estou aprendendo como **baixar dados reais** da internet para an�
 ### Fontes de Dados:
 - **APIs Públicas**: Como acessar dados através de APIs e usá-los diretamente em meus projetos.
 - **Download de Arquivos CSV**: Como baixar arquivos CSV de sites e carregá-los para análise usando bibliotecas como `Matplotlib`.
+- **Download de Arquivos JSON**: Como baixar arquivos JSON de sites e carregá-los para análise.
 
 ### Objetivo:
 Aprender a buscar e importar dados reais para poder fazer análises mais profundas e gerar visualizações mais interessantes.
