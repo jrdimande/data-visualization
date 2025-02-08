@@ -1,0 +1,1 @@
+Download some data for San Francisco. and generate a high-low temperature plot for San Francisco

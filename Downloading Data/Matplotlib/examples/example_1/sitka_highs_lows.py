@@ -19,7 +19,6 @@ with open(filename) as f:
         dates.append(concurrent_date)
         highs.append(high)
         lows.append(low)
-    print(highs)
 
 # Plot the high temperatures
 plt.style.use('classic')

@@ -5,6 +5,6 @@ def converter_xls_para_csv(xls_path, csv_path):
     print(f"Done {csv_path}")
 
 xls_path = ""
-csv_path = ""
+csv_path = "git "
 
 converter_xls_para_csv(xls_path, csv_path)
