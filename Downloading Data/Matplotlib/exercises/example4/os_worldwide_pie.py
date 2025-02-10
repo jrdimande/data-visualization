@@ -26,10 +26,10 @@ with open(filename) as f:
 
 
 # Plot the percentages of each OS
-fig, ax = plt.subplots(figsize=(10, 8))
-ax.set_title("Desktop Operating Systems")
+fig, ax = plt.subplots()
+plt.title("Desktop Operating Systems")
 
-ax.pie(percentages, autopct='%1.1f%%' ,startangle=100)
+ax.pie(percentages, autopct='%1.1f%%' ,startangle=90)
 # Create the legend
 plt.legend(names, loc="center left", bbox_to_anchor=(1, 0.5))
 
